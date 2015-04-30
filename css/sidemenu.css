@@ -1,5 +1,7 @@
 @font-face {font-family:roboto;src: url('roboto.ttf') format('truetype');}
 @font-face {font-family:schoolbell; src: url('schoolbell.ttf') format('truetype');}
+@font-face {font-family:bree; src: url('Bree.ttf') format('truetype');}
+@font-face {font-family:imprima; src: url('Imprima.ttf') format('truetype');}
 html, body {font-family:roboto;}
 @media only screen and (min-width: 0px) {html {font-size: 1.1em;} #circle{font-size: 2rem;}}
 @media only screen and (min-width: 320px) {html {font-size: 1.4em;} #circle{font-size: 3rem;}}
@@ -158,3 +160,58 @@ a:link; a:visited; a:active; {color:#189CD5; font-weight: bold;}
 #subjects-in p{font-weight: bold; color: #dc572e}
 #subjects-in a{font-weight: bold;}
 #infopad2{font-family: schoolbell;}
+
+#beacon {
+  font-size: 20px;
+  line-height: 44px;
+  font-family: bree;
+}
+.beacon-header {
+  background: #7E57C2;
+  text-align: center;
+  color: white;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  transition: all 0.3s ease;
+  height:44px;
+  line-height: 44px;
+  z-index: 9;
+  border-bottom: 1px solid gray;
+}
+.beacon-header a {
+  position: absolute;
+  left: 8px;
+  top: 0px;
+  color: white;
+  font-size: 26px;
+}
+.bcontent {
+  padding: 53px 8px 53px 8px;
+  max-width: 720px;
+  margin:auto;
+}
+.beacon-footer {
+  background: #9575CD;
+  text-align: center;
+  color: white;
+  position: fixed;
+  bottom:0;
+  left:0;
+  width: 100%;
+  left: 0;
+  transition: all 0.3s ease;
+  height:44px;
+  line-height: 44px;
+  z-index: 9;
+  border-top: 1px solid gray;
+}
+.beacon-footer a {
+  color: white;
+}
+.beacon-nav {
+  width:25%; line-height: 44px; font-size:14px; align:center; float:left; font-family: imprima;
+}
+#active-bfooter {background:#4527A0;font-family: imprima;border-top:3px solid #fff;
+line-height: 41px;}
+
